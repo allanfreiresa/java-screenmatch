@@ -1,9 +1,16 @@
-//package br.com.alura.conta;
 public class Conta {
 
-    public double saldo;
+    private String titular;
+   protected double saldo;
+   //private double saldo;
 
     public void sacar(double valor) {
-        // lógica de saque...
+        //implementacao do metodo omitida
     }
+
+    public void depositar(double valor) {
+        //implementacao do metodo omitida
+    }
+
+    //getters e setters
 }
